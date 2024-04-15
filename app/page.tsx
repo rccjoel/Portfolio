@@ -34,7 +34,7 @@ export default function Main() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Hello, I'm Randy.
+              Hello, I&apos;m Randy.
             </h1>
             <p className="mt-6 text-base leading-8 text-gray-600">
               <Animation />
