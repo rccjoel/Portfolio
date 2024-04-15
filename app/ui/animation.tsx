@@ -13,7 +13,7 @@ export default function Animation() {
         1000,
         'Together we can redefine possibilities',
         1000,
-        'Together we can.',
+        'Together we can',
         3000
       ]}
       wrapper="span"

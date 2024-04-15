@@ -36,7 +36,7 @@ export default function Main() {
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Hello, I'm Randy.
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-sm leading-8 text-gray-600">
               <Animation />
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
