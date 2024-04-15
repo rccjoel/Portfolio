@@ -7,14 +7,14 @@ export default function Animation() {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'We produce food for Mice',
+        'Together we can build something awesome',
         1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'We produce food for Hamsters',
+        'Together we can bring ideas to life',
         1000,
-        'We produce food for Guinea Pigs',
+        'Together we can redefine possibilities',
         1000,
-        'We produce food for Chinchillas',
-        1000
+        'Together we can.',
+        3000
       ]}
       wrapper="span"
       speed={50}
