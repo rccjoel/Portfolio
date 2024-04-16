@@ -2,6 +2,7 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 
 const projects = [
     {
+        id: 1,
         title: "El Mercadito Grab & Go",
         description: "Coffee shop located in Leamington, ON. The client wanted to gain visibility on the web and display the full menu to it's customers.",
         challenges: [
@@ -13,6 +14,7 @@ const projects = [
         link: "https://el-mercadito-phi.vercel.app/"
     },
     {
+        id: 2,
         title: "ATI General Contracting",
         description: "ATI General Contracting is a construction company. It is a family-owned business with a passion for turning visions into realities.",
         challenges: [
@@ -37,7 +39,7 @@ export default function Projects() {
           </p>
         </div>
         {projects.map((project) => (
-            <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">      
+          <div key={project.id} className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">      
             <div className="p-8 sm:p-10 lg:flex-auto">
               <h3 className="text-2xl font-bold tracking-tight text-gray-900">{project.title}</h3>
               <p className="mt-6 text-base leading-7 text-gray-600">{project.description}</p>
