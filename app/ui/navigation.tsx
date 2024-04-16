@@ -6,8 +6,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'About', href: '#' },
-    { name: 'Projects', href: '#' },
+    { name: 'Projects', href: '/#projects' },
     { name: 'Contact', href: '/contact' },
   ]
 
@@ -18,7 +17,7 @@ export default function Navigation() {
         <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8 bg-zinc-800" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <Image
                 src={"/randy-logo.png"}
