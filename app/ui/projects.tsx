@@ -11,6 +11,17 @@ const projects = [
             'Deploy in a timely manner'
         ],
         link: "https://el-mercadito-phi.vercel.app/"
+    },
+    {
+        title: "ATI General Contracting",
+        description: "ATI General Contracting is a construction company. It is a family-owned business with a passion for turning visions into realities.",
+        challenges: [
+            'Display services section',
+            'Optimize SEO to reach more clients',
+            'Family friendly quote section',
+            'Showcase previous work'
+        ],
+        link: "#"
     }
 ]
 
