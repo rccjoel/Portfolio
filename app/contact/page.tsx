@@ -18,7 +18,7 @@ export default function Contact() {
             Ready to Talk?
           </p>
           <p className="mt-6 text-lg leading-8 text-white">
-            Ready to take the next step? I'm here to help you achieve your goals. 
+            Ready to take the next step? I&apos;m here to help you achieve your goals. 
             Contact me today to discuss how I can bring your vision to life.
           </p>
         </div>
