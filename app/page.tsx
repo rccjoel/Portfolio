@@ -2,6 +2,7 @@ import Navigation from "./ui/navigation"
 import Animation from "./ui/animation"
 import Footer from "./ui/footer"
 import Languages from "./ui/languages"
+import Projects from "./ui/projects"
 
 export default function Main() {
 
@@ -42,7 +43,7 @@ export default function Main() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-emerald-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-emerald-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Let&apos;s Talk
               </a>
@@ -65,6 +66,7 @@ export default function Main() {
           />
         </div>
       </div>
+      <Projects />
       <Languages />
       <Footer />
     </div>
